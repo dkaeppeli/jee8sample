@@ -1,4 +1,4 @@
-package com.airhacks;
+package li.kaeppe.tracker;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
