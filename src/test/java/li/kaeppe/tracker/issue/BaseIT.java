@@ -21,6 +21,7 @@ public abstract class BaseIT {
 
 	@AfterEach
 	public void tearDown() throws Exception {
+		tx.rollback();
 		em.clear();
 		em.close();
 	}
